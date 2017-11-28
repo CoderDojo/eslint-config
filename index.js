@@ -14,11 +14,10 @@ module.exports = {
     'no-use-before-define': ['error', { functions: false }],
     'no-unused-vars': ['error', {'vars': 'all', 'args': 'none'}],
     'consistent-return': 'off',
-    'arrow-body-style': ['warn', 'as-needed', {
+    'arrow-body-style': ['off', 'as-needed', {
       requireReturnForObjectLiteral: false,
     }],
-    'prefer-rest-params': 'warn',
-    'prefer-destructuring': ['warn', {
+    'prefer-destructuring': ['off', {
       VariableDeclarator: {
         array: false,
         object: true,
@@ -34,9 +33,9 @@ module.exports = {
     'no-underscore-dangle': 'off',
     'array-element-newline': 'off',
     'function-paren-newline': ['warn', 'multiline'],
-    'newline-per-chained-call': ['warn', { ignoreChainWithDepth: 4 }],
+    'newline-per-chained-call': ['error', { ignoreChainWithDepth: 4 }],
     'no-inline-comments': 'off',
-    'object-curly-newline': ['warn', {
+    'object-curly-newline': ['error', {
       ObjectExpression: { minProperties: 4, multiline: true, consistent: true },
       ObjectPattern: { minProperties: 4, multiline: true, consistent: true }
     }],
