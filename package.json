@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-coderdojo",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "ESLint config used by CoderDojo, based of airbnb styleguide with modifications for seneca",
   "main": "index.js",
   "author": "coderdojo",
